@@ -1,0 +1,91 @@
+nav,ul,li{
+    display: inline;
+    margin: 10px;
+    padding-left: 2vw;
+    text-align: center;
+}
+li{
+    border: 2px solid;
+    text-underline-offset: 10px;
+    border-radius: 5px;
+    background-color: #4b4949;
+    text-align: center;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+li:hover{
+    border: 4px ;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px #4b4949;
+    background-color: #ffffff;
+    transition: 1.5s;
+    box-sizing: 20px;
+}
+a:hover{
+    font-size: 20px;
+    transition: 0.5s ease-in;
+    background-size: 20px;
+    color: rgb(4, 4, 4);
+    text-align: center; 
+}
+h1{
+    background-color: #4b4949;
+    color: #ffffff;
+    transition: 2s ease-out;
+    border: 2px black;
+    font-family:cursive;
+    box-shadow: 1px 5px 3px rgba(95, 94, 94, 0.458);
+    border-radius: 31px  ;
+}
+span{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+
+}
+h2{
+    background-color: #c1bbbb;
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    box-shadow: 0px 4px 5px rgb(75, 73, 75);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+}
+video{
+    height: 475px;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 2px 5px 40px #252525;
+    transition: 2s ;
+}
+button{
+    border-radius: 20px;
+    border: 3px solid;
+    margin-inline-start: initial;
+    box-shadow:1px 3px 3px  #c2aaaab0;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+button:hover{
+    border-radius: 10px;
+    border: 3px solid;
+    box-shadow:1px 6px 3px  #4b4949;
+    background-color: #000000;
+    color: rgb(255, 253, 253);
+    transition: 0.5s ease-out;
+    box-sizing: 10px;
+}
+
